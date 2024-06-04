@@ -2,14 +2,20 @@ extends CharacterBody2D
 
 const SPEED = 100
 const SPRINT_MULT = 1.5
-
+const MAX_HP = 100
+const MAX_STAM = 100
+var HP = 100
+var STAM = 100
 @onready var _animated_sprite = $AnimatedSprite2D
 
 func _physics_process(delta):
 	_anim_move(delta)
 	_anim_turn(delta)
 	var direction := Vector2.ZERO
-	
+	if (STAM <= MAX_STAM) and !Input.is_action_pressed("ui_sprint"):
+		STAM += 0.25;
+		if (STAM > MAX_STAM):
+			STAM = MAX_STAM
 	if Input.is_action_pressed("ui_left"):
 		direction.x -= 1
 	if Input.is_action_pressed("ui_right"):
@@ -18,8 +24,9 @@ func _physics_process(delta):
 		direction.y -= 1
 	if Input.is_action_pressed("ui_down"):
 		direction.y += 1
-	if Input.is_action_pressed("ui_sprint"):
+	if Input.is_action_pressed("ui_sprint") and (STAM > 0):
 		velocity = direction.normalized() * SPEED * SPRINT_MULT
+		STAM = STAM - 0.5
 	else:
 		velocity = direction.normalized() * SPEED
 	

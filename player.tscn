@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://esofyqsggnqx"]
+[gd_scene load_steps=11 format=3 uid="uid://esofyqsggnqx"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_w1vvt"]
 [ext_resource type="Texture2D" uid="uid://ckr2ie2s5j4ol" path="res://bingusf1png.png" id="3_2pjm5"]
@@ -6,9 +6,11 @@
 [ext_resource type="Texture2D" uid="uid://58j81lj472e5" path="res://bingusf3png.png" id="5_td2e0"]
 [ext_resource type="Texture2D" uid="uid://cqyo1b25qfoig" path="res://bingusf4png.png" id="6_fd5qj"]
 [ext_resource type="Texture2D" uid="uid://dhivp6eignr0" path="res://bingusf5png.png" id="7_a7duh"]
+[ext_resource type="Texture2D" uid="uid://dmlh70ko7k2k8" path="res://Black_circle.png" id="7_q45a5"]
+[ext_resource type="Texture2D" uid="uid://bgyx30f4ruk3h" path="res://Blue_circle.png" id="8_chf1r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m0j3k"]
-size = Vector2(12, 5.125)
+size = Vector2(15, 9)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_b4b6s"]
 animations = [{
@@ -37,11 +39,20 @@ animations = [{
 script = ExtResource("1_w1vvt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-155, -6.4375)
+position = Vector2(-281.5, 53.5)
 shape = SubResource("RectangleShape2D_m0j3k")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-155, -11)
-scale = Vector2(0.0408878, 0.0295643)
+position = Vector2(-281.695, 47.7656)
+scale = Vector2(0.0479458, 0.0446707)
 sprite_frames = SubResource("SpriteFrames_b4b6s")
 animation = &"run"
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = -1146.0
+offset_top = -572.0
+offset_right = -246.0
+offset_bottom = 328.0
+fill_mode = 4
+texture_under = ExtResource("7_q45a5")
+texture_progress = ExtResource("8_chf1r")
