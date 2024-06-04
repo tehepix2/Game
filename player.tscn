@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://58j81lj472e5" path="res://bingusf3png.png" id="5_td2e0"]
 [ext_resource type="Texture2D" uid="uid://cqyo1b25qfoig" path="res://bingusf4png.png" id="6_fd5qj"]
 [ext_resource type="Texture2D" uid="uid://dhivp6eignr0" path="res://bingusf5png.png" id="7_a7duh"]
-[ext_resource type="Texture2D" uid="uid://dmlh70ko7k2k8" path="res://Black_circle.png" id="7_q45a5"]
-[ext_resource type="Texture2D" uid="uid://bgyx30f4ruk3h" path="res://Blue_circle.png" id="8_chf1r"]
+[ext_resource type="Texture2D" uid="uid://cc8x3mwpvad0q" path="res://New ProjectB.png" id="7_xwp7e"]
+[ext_resource type="Texture2D" uid="uid://bp8y5n2aeeil8" path="res://New Project.png" id="8_f3s2h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m0j3k"]
 size = Vector2(15, 9)
@@ -49,10 +49,11 @@ sprite_frames = SubResource("SpriteFrames_b4b6s")
 animation = &"run"
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="."]
-offset_left = -1146.0
-offset_top = -572.0
-offset_right = -246.0
-offset_bottom = 328.0
+offset_left = -268.0
+offset_top = 40.0
+offset_right = 632.0
+offset_bottom = 1020.0
+scale = Vector2(0.0232048, 0.0208833)
 fill_mode = 4
-texture_under = ExtResource("7_q45a5")
-texture_progress = ExtResource("8_chf1r")
+texture_under = ExtResource("7_xwp7e")
+texture_progress = ExtResource("8_f3s2h")

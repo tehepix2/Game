@@ -7,8 +7,11 @@ const MAX_STAM = 100
 var HP = 100
 var STAM = 100
 @onready var _animated_sprite = $AnimatedSprite2D
-
+@onready var _progress_bar = $TextureProgressBar
 func _physics_process(delta):
+	_progress_bar.value = STAM
+	_progress_bar.visible = !STAM == 100
+	
 	_anim_move(delta)
 	_anim_turn(delta)
 	var direction := Vector2.ZERO
@@ -26,7 +29,7 @@ func _physics_process(delta):
 		direction.y += 1
 	if Input.is_action_pressed("ui_sprint") and (STAM > 0):
 		velocity = direction.normalized() * SPEED * SPRINT_MULT
-		STAM = STAM - 0.5
+		STAM -= 0.5
 	else:
 		velocity = direction.normalized() * SPEED
 	
