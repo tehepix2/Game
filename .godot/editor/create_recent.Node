@@ -1,2 +1,7 @@
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+CharacterBody2D
 TextureProgressBar
+Node2D
 ProgressBar

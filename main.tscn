@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://lnu8hcsmyb0q"]
+[gd_scene load_steps=17 format=3 uid="uid://lnu8hcsmyb0q"]
 
 [ext_resource type="PackedScene" uid="uid://esofyqsggnqx" path="res://player.tscn" id="1_c3rkm"]
 [ext_resource type="Texture2D" uid="uid://b1ohu2mixokg6" path="res://fantasy_ [version 2.0]/forest_/forest_ [bridgeHorizontal].png" id="5_kcgg7"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bv83vfhnk10cw" path="res://fantasy_ [version 2.0]/forest_/forest_ [bridgeVertical].png" id="7_h5tqq"]
 [ext_resource type="Texture2D" uid="uid://bd3cwx67nvq2a" path="res://fantasy_ [version 2.0]/forest_/forest_ [fencesAndWalls].png" id="7_m145v"]
 [ext_resource type="Script" path="res://TileMap.gd" id="8_i7cxa"]
+[ext_resource type="PackedScene" uid="uid://dqx5rv4468un6" path="res://Bat.tscn" id="9_npmq2"]
 [ext_resource type="Texture2D" uid="uid://83v28jmjbewx" path="res://fantasy_ [version 2.0]/forest_/forest_ [resources].png" id="9_uy5av"]
 [ext_resource type="Texture2D" uid="uid://o8do4c88pc6k" path="res://fantasy_ [version 2.0]/forest_/forest_.png" id="10_cnn86"]
 
@@ -1570,3 +1571,5 @@ layer_5/name = "Structures_Overworld"
 layer_5/z_index = 2
 layer_5/tile_data = PackedInt32Array(-146081343, 65539, 1, -146015807, 65539, 2, -145950271, 65539, 3, -146081342, 131075, 1, -146015806, 131075, 2, -145950270, 65540, 1342177289, -146081341, 196611, 1, -146015805, 196611, 2, -145950269, 196611, 3, -146081340, 262147, 1, -146015804, 262147, 2, -145950268, 262147, 3, -146081339, 327683, 1, -146015803, 327683, 2, -145950267, 327683, 3, -146081338, 393219, 1, -146015802, 393219, 2, -145950266, 393219, 3, -146081337, 458755, 1, -146015801, 458755, 2, -145950265, 65540, 1342177284, -146081336, 524291, 1, -146015800, 524291, 2, -145950264, 524291, 3, -146081335, 589827, 1, -146015799, 589827, 2, -145950263, 589827, 3, -146081334, 655363, 1, -146015798, 655363, 2, -145950262, 655363, 3, -145229397, 65541, 1, -145163861, 65540, 1342177283, -145098325, 65541, 3, -145032789, 65541, 4, -144967253, 65541, 5, -144901717, 65541, 6, -144836181, 65541, 7, -144770645, 65541, 8, -145229396, 131077, 1, -145163860, 131077, 2, -145098324, 131077, 3, -145032788, 131077, 4, -144967252, 131077, 5, -144901716, 131077, 6, -144836180, 131077, 7, -144770644, 131077, 8, -145229395, 196613, 1, -145163859, 65540, 1342177281, -145098323, 196613, 3, -145032787, 196613, 4, -144967251, 196613, 5, -144901715, 196613, 6, -144836179, 196613, 7, -144770643, 196613, 8, -146146878, 131075, 0, -146146877, 196611, 0, -146146876, 262147, 0, -146146875, 327683, 0, -146146874, 393219, 0, -146146873, 458755, 0, -146146872, 524291, 0, -146146871, 589827, 0, -146146870, 655363, 0, -146146879, 65539, 0)
 script = ExtResource("8_i7cxa")
+
+[node name="bat" parent="." instance=ExtResource("9_npmq2")]

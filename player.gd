@@ -2,10 +2,13 @@ extends CharacterBody2D
 
 const SPEED = 100
 const SPRINT_MULT = 1.5
+
 const MAX_HP = 100
 const MAX_STAM = 100
+
 var HP = 100
 var STAM = 100
+
 @onready var _animated_sprite = $AnimatedSprite2D
 @onready var _progress_bar = $TextureProgressBar
 func _physics_process(delta):
