@@ -1,190 +1,193 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717678248
-.gitignore.txt::TextFile::-1::1717504290::0::1::::<><>::
-AnimatedSprite2D.gd::GDScript::-1::1717504290::0::1::::<>RefCounted<>::
-bingus.tres::ImageTexture::2098908828610522078::1717504290::0::1::::<><>::
-bingusf1png.png::CompressedTexture2D::5511478123402911107::1717504290::1717504290::1::::<><>::
-bingusf2png.png::CompressedTexture2D::8109712245245948084::1717504290::1717504290::1::::<><>::
-bingusf3png.png::CompressedTexture2D::2174396542207617858::1717504290::1717504290::1::::<><>::
-bingusf4png.png::CompressedTexture2D::5946304495850139126::1717504290::1717504290::1::::<><>::
-bingusf5png.png::CompressedTexture2D::225541248738523007::1717504290::1717504290::1::::<><>::
-binguspng(1).png::CompressedTexture2D::1243221805537214316::1717504290::1717504290::1::::<><>::
-binguspng.png::CompressedTexture2D::740885177416583162::1717504290::1717504290::1::::<><>::
-bingussprite.jpg::CompressedTexture2D::5504918067312598249::1717504290::1717504290::1::::<><>::
-export_presets.cfg::TextFile::-1::1717504290::0::1::::<><>::
-extra_momoSleep_shadow.png::CompressedTexture2D::9138217934441429030::1717678210::1717678253::1::::<><>::
-grasstexture.jpg::CompressedTexture2D::6876300679492908429::1717504291::1717504291::1::::<><>::
-HealthBar.gd::GDScript::-1::1717504290::0::1::::<>ProgressBar<>::
-icon.svg::CompressedTexture2D::1333222448118516707::1717504291::1717504330::1::::<><>::
-main.tscn::PackedScene::800187833463202982::1717676384::0::1::::<><>::uid://esofyqsggnqx::::res://player.tscn<>uid://b1ohu2mixokg6::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeHorizontal].png<>uid://cd21kqwddihak::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeAnimatedTiles].png<>uid://bv83vfhnk10cw::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeVertical].png<>uid://bd3cwx67nvq2a::::res://fantasy_ [version 2.0]/forest_/forest_ [fencesAndWalls].png<>res://TileMap.gd<>uid://83v28jmjbewx::::res://fantasy_ [version 2.0]/forest_/forest_ [resources].png<>uid://o8do4c88pc6k::::res://fantasy_ [version 2.0]/forest_/forest_.png
-momo_idle_shadow.png::CompressedTexture2D::4526806052367140059::1717678214::1717678253::1::::<><>::
-New Project.png::CompressedTexture2D::3508889310309884759::1717506333::1717506453::1::::<><>::
-New ProjectB.png::CompressedTexture2D::4982790678584702878::1717506480::1717506500::1::::<><>::
-node_2d.tscn::PackedScene::6368382232955002769::1717504291::0::1::::<><>::
-player.gd::GDScript::-1::1717507283::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::318774427096841659::1717676671::0::1::::<><>::res://player.gd<>uid://ckr2ie2s5j4ol::::res://bingusf1png.png<>uid://dnsn1m4o17yum::::res://bingusf2png.png<>uid://58j81lj472e5::::res://bingusf3png.png<>uid://cqyo1b25qfoig::::res://bingusf4png.png<>uid://dhivp6eignr0::::res://bingusf5png.png<>uid://cc8x3mwpvad0q::::res://New ProjectB.png<>uid://bp8y5n2aeeil8::::res://New Project.png
-monster.tscn::PackedScene::2068395939670214558::1717678064::0::1::::<><>::
-rocktexture - Copy.jpg::CompressedTexture2D::7905251286581415295::1717504291::1717504291::1::::<><>::
-rocktexture.jpg::CompressedTexture2D::2946589392850587141::1717504291::1717504291::1::::<><>::
-StaminaBar.gd::GDScript::-1::1717506766::0::1::::<>ProgressBar<>::
-TileMap.gd::GDScript::-1::1717504290::0::1::::<>TileMap<>::
-::res://Bat/::1717677582
-Bat_Attack.png::CompressedTexture2D::6596319475581819918::1717677528::1717677582::1::::<><>::
-Bat_Attack_FX.png::CompressedTexture2D::6911405620449220779::1717677528::1717677582::1::::<><>::
-Bat_Death.png::CompressedTexture2D::683610812046995749::1717677528::1717677582::1::::<><>::
-Bat_Death_FX.png::CompressedTexture2D::3609323220036415670::1717677528::1717677582::1::::<><>::
-Bat_Fly.png::CompressedTexture2D::8882005157665517071::1717677528::1717677582::1::::<><>::
-Bat_Full.png::CompressedTexture2D::9109040896090174340::1717677528::1717677582::1::::<><>::
-Bat_Hit.png::CompressedTexture2D::5531237608960747026::1717677528::1717677582::1::::<><>::
-::res://Crab/::1717677582
-Crab_Ability.png::CompressedTexture2D::4074460084661173091::1717677528::1717677582::1::::<><>::
-Crab_AttackA.png::CompressedTexture2D::3750364375377336375::1717677528::1717677582::1::::<><>::
-Crab_AttackA_FX.png::CompressedTexture2D::7259075029876739331::1717677528::1717677582::1::::<><>::
-Crab_AttackB.png::CompressedTexture2D::158384194042659066::1717677528::1717677582::1::::<><>::
-Crab_AttackB_FX.png::CompressedTexture2D::1191495562821126283::1717677528::1717677582::1::::<><>::
-Crab_AttackC.png::CompressedTexture2D::2869830980062206848::1717677528::1717677582::1::::<><>::
-Crab_AttackC_FX.png::CompressedTexture2D::205614714461750152::1717677528::1717677582::1::::<><>::
-Crab_Death.png::CompressedTexture2D::777445125728398701::1717677528::1717677582::1::::<><>::
-Crab_Full.png::CompressedTexture2D::3531593590602706800::1717677529::1717677582::1::::<><>::
-Crab_Hit.png::CompressedTexture2D::4220744657845577689::1717677529::1717677582::1::::<><>::
-Crab_Idle.png::CompressedTexture2D::7855924578495713706::1717677529::1717677582::1::::<><>::
-Crab_Run.png::CompressedTexture2D::5335322096309973821::1717677529::1717677582::1::::<><>::
-::res://fantasy_ [version 2.0]/::1717504290
-readMe_.txt::TextFile::-1::1717504290::0::1::::<><>::
-::res://fantasy_ [version 2.0]/cave_/::1717504290
-cave_ [bridgeAnimatedTiles].png::CompressedTexture2D::329946149496288725::1717504290::1717504290::1::::<><>::
-cave_ [bridgeHorizontal].png::CompressedTexture2D::6350694172972299216::1717504290::1717504290::1::::<><>::
-cave_ [bridgeVertical].png::CompressedTexture2D::8495955429007605787::1717504290::1717504290::1::::<><>::
-cave_ [fencesAndWalls].png::CompressedTexture2D::4997142481535586681::1717504290::1717504290::1::::<><>::
-cave_ [fountain].png::CompressedTexture2D::7039052438863207783::1717504290::1717504290::1::::<><>::
-cave_ [resources].png::CompressedTexture2D::5751600198049981106::1717504290::1717504290::1::::<><>::
-cave_.png::CompressedTexture2D::9015856368117408465::1717504290::1717504290::1::::<><>::
-railway_.png::CompressedTexture2D::6605759503634636727::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/desert_/::1717504290
-desertPath_.png::CompressedTexture2D::6810469488826147538::1717504290::1717504290::1::::<><>::
-desert_ [bridgeAnimatedTiles].png::CompressedTexture2D::2873450515216789470::1717504290::1717504290::1::::<><>::
-desert_ [bridgeHorizontal].png::CompressedTexture2D::6976742128165360962::1717504290::1717504290::1::::<><>::
-desert_ [bridgeVertical].png::CompressedTexture2D::7437453764981421550::1717504290::1717504290::1::::<><>::
-desert_ [fencesAndWalls].png::CompressedTexture2D::8273665259827398854::1717504290::1717504290::1::::<><>::
-desert_ [fountain].png::CompressedTexture2D::189701550019637083::1717504290::1717504290::1::::<><>::
-desert_ [resources].png::CompressedTexture2D::7272405778687297728::1717504290::1717504290::1::::<><>::
-desert_.png::CompressedTexture2D::3293467201404831225::1717504290::1717504290::1::::<><>::
-quickSand_.png::CompressedTexture2D::4654408458641854535::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/fantasy_/::1717504290
-forestDesert_.png::CompressedTexture2D::7468208931322701019::1717504290::1717504290::1::::<><>::
-swampDesert_.png::CompressedTexture2D::680734614995048358::1717504290::1717504290::1::::<><>::
-swampForest_.png::CompressedTexture2D::3311126189163746945::1717504290::1717504290::1::::<><>::
-swampTaiga_.png::CompressedTexture2D::5927039080353593691::1717504290::1717504290::1::::<><>::
-taigaDesert_.png::CompressedTexture2D::4061165991430610241::1717504290::1717504290::1::::<><>::
-taigaForest_.png::CompressedTexture2D::6354287400458032414::1717504290::1717504290::1::::<><>::
-tundraDesert_.png::CompressedTexture2D::1004266450152918658::1717504290::1717504290::1::::<><>::
-tundraForest.png::CompressedTexture2D::7871429896081871049::1717504290::1717504290::1::::<><>::
-tundraSwampTaigaForestDesert_0.png::CompressedTexture2D::5275465824476917968::1717504290::1717504290::1::::<><>::
-tundraSwampTaigaForestDesert_1.png::CompressedTexture2D::9000831070075655563::1717504290::1717504290::1::::<><>::
-tundraSwamp_.png::CompressedTexture2D::6653747084324010981::1717504290::1717504290::1::::<><>::
-tundraTaiga_.png::CompressedTexture2D::6244787357765938887::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/forest_/::1717504290
-forestPath_.png::CompressedTexture2D::8161323147489259240::1717504290::1717504290::1::::<><>::
-forest_ [bridgeAnimatedTiles].png::CompressedTexture2D::5040743471910827510::1717504290::1717504290::1::::<><>::
-forest_ [bridgeHorizontal].png::CompressedTexture2D::4240694078729131123::1717504290::1717504290::1::::<><>::
-forest_ [bridgeVertical].png::CompressedTexture2D::3930248717480673934::1717504290::1717504290::1::::<><>::
-forest_ [fencesAndWalls].png::CompressedTexture2D::2654951770570453518::1717504290::1717504290::1::::<><>::
-forest_ [fountain].png::CompressedTexture2D::4350371608836863738::1717504290::1717504290::1::::<><>::
-forest_ [resources].png::CompressedTexture2D::2375359438183361643::1717504290::1717504290::1::::<><>::
-forest_.png::CompressedTexture2D::1050976956720217944::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/swamp_/::1717504290
-puddle_.png::CompressedTexture2D::2172758926829804277::1717504290::1717504290::1::::<><>::
-swamp_ [bridgeAnimatedTiles].png::CompressedTexture2D::8564448477141273442::1717504290::1717504290::1::::<><>::
-swamp_ [bridgeHorizontal].png::CompressedTexture2D::3693868424608888764::1717504290::1717504290::1::::<><>::
-swamp_ [bridgeVertical].png::CompressedTexture2D::3352468843629900145::1717504290::1717504290::1::::<><>::
-swamp_ [fencesAndWalls].png::CompressedTexture2D::6841641621888700158::1717504290::1717504290::1::::<><>::
-swamp_ [fountain].png::CompressedTexture2D::4389637248018383819::1717504290::1717504290::1::::<><>::
-swamp_ [resources].png::CompressedTexture2D::3505203728983653527::1717504290::1717504290::1::::<><>::
-swamp_.png::CompressedTexture2D::1480583272108599236::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/taiga_/::1717504290
-taigaPath_.png::CompressedTexture2D::1254061412221468402::1717504290::1717504290::1::::<><>::
-taiga_ [bridgeAnimatedTiles].png::CompressedTexture2D::3148791573826721985::1717504290::1717504290::1::::<><>::
-taiga_ [bridgeHorizontal].png::CompressedTexture2D::1990517761863260278::1717504290::1717504290::1::::<><>::
-taiga_ [bridgeVertical].png::CompressedTexture2D::4958510539232319711::1717504290::1717504290::1::::<><>::
-taiga_ [fencesAndWalls].png::CompressedTexture2D::8754956287504429358::1717504290::1717504290::1::::<><>::
-taiga_ [fountain].png::CompressedTexture2D::6292719498406401140::1717504290::1717504290::1::::<><>::
-taiga_ [resources].png::CompressedTexture2D::101635174061941773::1717504290::1717504290::1::::<><>::
-taiga_.png::CompressedTexture2D::3186787359476483821::1717504290::1717504290::1::::<><>::
-::res://fantasy_ [version 2.0]/tundra_/::1717504290
-ice_.png::CompressedTexture2D::8761267420554203608::1717504290::1717504290::1::::<><>::
-igloo_.png::CompressedTexture2D::7916238226808695862::1717504290::1717504290::1::::<><>::
-tundraPath_.png::CompressedTexture2D::6637028953931471724::1717504290::1717504290::1::::<><>::
-tundra_ [bridgeAnimatedTiles].png::CompressedTexture2D::8520928561740155871::1717504290::1717504290::1::::<><>::
-tundra_ [bridgeHorizontal].png::CompressedTexture2D::7142260225668018287::1717504290::1717504290::1::::<><>::
-tundra_ [bridgeVertical].png::CompressedTexture2D::115249316257165426::1717504290::1717504290::1::::<><>::
-tundra_ [fencesAndWalls].png::CompressedTexture2D::2133517526325478843::1717504290::1717504290::1::::<><>::
-tundra_ [fountain].png::CompressedTexture2D::1783633083249197225::1717504290::1717504290::1::::<><>::
-tundra_ [ice].png::CompressedTexture2D::6167488098704735349::1717504290::1717504290::1::::<><>::
-tundra_ [resources].png::CompressedTexture2D::6230239717052637278::1717504290::1717504290::1::::<><>::
-tundra_.png::CompressedTexture2D::2210660701469892989::1717504290::1717504290::1::::<><>::
-::res://Golem/::1717677529
-::res://Golem/Armored/::1717677583
-Golem_Armor_Ability.png::CompressedTexture2D::7553988992816665331::1717677529::1717677583::1::::<><>::
-Golem_Armor_ArmorBreak.png::CompressedTexture2D::194665458525298410::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackA.png::CompressedTexture2D::7895806882448923924::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackA_FX.png::CompressedTexture2D::8919297388072629667::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackB.png::CompressedTexture2D::6659943233019070848::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackB_FX.png::CompressedTexture2D::5454071719794826328::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackC.png::CompressedTexture2D::7455262437611978447::1717677529::1717677583::1::::<><>::
-Golem_Armor_AttackC_FX.png::CompressedTexture2D::3680735446066670442::1717677529::1717677583::1::::<><>::
-Golem_Armor_Full.png::CompressedTexture2D::2735453266854780086::1717677529::1717677583::1::::<><>::
-Golem_Armor_Hit.png::CompressedTexture2D::4500076073975781025::1717677529::1717677583::1::::<><>::
-Golem_Armor_Idle.png::CompressedTexture2D::8400164391352672859::1717677529::1717677583::1::::<><>::
-Golem_Armor_Run.png::CompressedTexture2D::5605258527719186832::1717677529::1717677583::1::::<><>::
-::res://Golem/No Armor/::1717677583
-Golem_AttackA.png::CompressedTexture2D::9130474984948924304::1717677529::1717677583::1::::<><>::
-Golem_AttackA_FX.png::CompressedTexture2D::6885564230508156854::1717677529::1717677583::1::::<><>::
-Golem_AttackB.png::CompressedTexture2D::5818280439018122778::1717677529::1717677583::1::::<><>::
-Golem_AttackB_FX.png::CompressedTexture2D::5470751099330316038::1717677529::1717677583::1::::<><>::
-Golem_AttackC.png::CompressedTexture2D::2071304560167781827::1717677529::1717677583::1::::<><>::
-Golem_AttackC_FX.png::CompressedTexture2D::2449854457540111991::1717677529::1717677582::1::::<><>::
-Golem_DeathA.png::CompressedTexture2D::843043877264793770::1717677529::1717677582::1::::<><>::
-Golem_DeathB.png::CompressedTexture2D::153421290848221693::1717677529::1717677582::1::::<><>::
-Golem_Death_FX.png::CompressedTexture2D::6814936651954899098::1717677529::1717677582::1::::<><>::
-Golem_Full.png::CompressedTexture2D::3552782335388501053::1717677529::1717677582::1::::<><>::
-Golem_HitA.png::CompressedTexture2D::1061436843455641793::1717677529::1717677582::1::::<><>::
-Golem_HitB.png::CompressedTexture2D::9154823830694202946::1717677529::1717677582::1::::<><>::
-Golem_IdleA.png::CompressedTexture2D::5531973943117795394::1717677529::1717677582::1::::<><>::
-Golem_IdleB.png::CompressedTexture2D::6536782716308432576::1717677529::1717677582::1::::<><>::
-Golem_Reset.png::CompressedTexture2D::1068774685726138314::1717677529::1717677582::1::::<><>::
-Golem_Run.png::CompressedTexture2D::8591674453678437509::1717677529::1717677582::1::::<><>::
-Golem_Upgrade.png::CompressedTexture2D::2186607010451158929::1717677529::1717677582::1::::<><>::
-::res://Pebble/::1717677582
-Pebble_Death.png::CompressedTexture2D::6069246802431134760::1717677530::1717677582::1::::<><>::
-Pebble_Full.png::CompressedTexture2D::3696244832107516986::1717677530::1717677582::1::::<><>::
-Pebble_Hit.png::CompressedTexture2D::8150463122669624682::1717677530::1717677582::1::::<><>::
-Pebble_Idle.png::CompressedTexture2D::153699165675142532::1717677530::1717677582::1::::<><>::
-Pebble_Run.png::CompressedTexture2D::8047140176798451684::1717677530::1717677582::1::::<><>::
-::res://Rat/::1717677582
-Rat_Ability.png::CompressedTexture2D::6020467203607814967::1717677529::1717677582::1::::<><>::
-Rat_Attack.png::CompressedTexture2D::5983039912777661787::1717677529::1717677582::1::::<><>::
-Rat_Attack_FX.png::CompressedTexture2D::8147375012415485869::1717677529::1717677582::1::::<><>::
-Rat_Death.png::CompressedTexture2D::3230345824268040748::1717677529::1717677582::1::::<><>::
-Rat_Death_FX.png::CompressedTexture2D::1529837671146497473::1717677529::1717677582::1::::<><>::
-Rat_Full.png::CompressedTexture2D::3853936494551222881::1717677529::1717677582::1::::<><>::
-Rat_Hit.png::CompressedTexture2D::7784311081950822259::1717677529::1717677582::1::::<><>::
-Rat_Idle.png::CompressedTexture2D::8394680138937560212::1717677529::1717677582::1::::<><>::
-Rat_Run.png::CompressedTexture2D::2804538179233559813::1717677529::1717677582::1::::<><>::
-::res://Skull/::1717677582
-Bones_SingleSkull_Death.png::CompressedTexture2D::8872051907142995685::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Death_FX.png::CompressedTexture2D::9213308222927440581::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Fly.png::CompressedTexture2D::7265484911470386093::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Full.png::CompressedTexture2D::6995297112767940398::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Full_FX.png::CompressedTexture2D::5757197269628330860::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Hit.png::CompressedTexture2D::6418082039784692889::1717677530::1717677582::1::::<><>::
-Bones_SingleSkull_Idle.png::CompressedTexture2D::60073861130872037::1717677530::1717677582::1::::<><>::
-::res://Slime/::1717677582
-Slime_Spiked_Ability.png::CompressedTexture2D::976018320379111027::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Ability_FX.png::CompressedTexture2D::2538074902064694018::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Death.png::CompressedTexture2D::5262618571164671194::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Full.png::CompressedTexture2D::4909265803569509278::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Hit.png::CompressedTexture2D::8944416044193128560::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Idle.png::CompressedTexture2D::5026179272444389430::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Jump.png::CompressedTexture2D::5505917968089416435::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Jump_FX.png::CompressedTexture2D::5376647183116415167::1717677529::1717677582::1::::<><>::
-Slime_Spiked_Run.png::CompressedTexture2D::5784508431761351510::1717677529::1717677582::1::::<><>::
+::res://::1717958076
+.gitignore.txt::TextFile::-1::1717899446::0::1::::<><>::
+AnimatedSprite2D.gd::GDScript::-1::1717899446::0::1::::<>RefCounted<>::
+Bat.tscn::PackedScene::8331617255060628737::1717899555::0::1::::<><>::res://Node2D.gd<>uid://dysrleladda1t::::res://Bat/Bat_Fly.png
+bingus.tres::ImageTexture::2098908828610522078::1717899446::0::1::::<><>::
+bingusf1png.png::CompressedTexture2D::5511478123402911107::1717899446::1717899446::1::::<><>::
+bingusf2png.png::CompressedTexture2D::8109712245245948084::1717899446::1717899446::1::::<><>::
+bingusf3png.png::CompressedTexture2D::2174396542207617858::1717899446::1717899446::1::::<><>::
+bingusf4png.png::CompressedTexture2D::5946304495850139126::1717899446::1717899446::1::::<><>::
+bingusf5png.png::CompressedTexture2D::225541248738523007::1717899446::1717899446::1::::<><>::
+binguspng(1).png::CompressedTexture2D::1243221805537214316::1717899446::1717899446::1::::<><>::
+binguspng.png::CompressedTexture2D::740885177416583162::1717899446::1717899446::1::::<><>::
+bingussprite.jpg::CompressedTexture2D::5504918067312598249::1717899446::1717899446::1::::<><>::
+export_presets.cfg::TextFile::-1::1717899446::0::1::::<><>::
+extra_momoSleep_shadow.png::CompressedTexture2D::9138217934441429030::1717899446::1717899446::1::::<><>::
+grasstexture.jpg::CompressedTexture2D::6876300679492908429::1717899447::1717899447::1::::<><>::
+HealthBar.gd::GDScript::-1::1717899446::0::1::::<>ProgressBar<>::
+icon.svg::CompressedTexture2D::1333222448118516707::1717899447::1717899447::1::::<><>::
+main.tscn::PackedScene::800187833463202982::1717899555::0::1::::<><>::uid://esofyqsggnqx::::res://player.tscn<>uid://b1ohu2mixokg6::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeHorizontal].png<>uid://cd21kqwddihak::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeAnimatedTiles].png<>uid://bv83vfhnk10cw::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeVertical].png<>uid://bd3cwx67nvq2a::::res://fantasy_ [version 2.0]/forest_/forest_ [fencesAndWalls].png<>res://TileMap.gd<>uid://dqx5rv4468un6::::res://Bat.tscn<>uid://83v28jmjbewx::::res://fantasy_ [version 2.0]/forest_/forest_ [resources].png<>uid://o8do4c88pc6k::::res://fantasy_ [version 2.0]/forest_/forest_.png
+momo_idle_shadow.png::CompressedTexture2D::4526806052367140059::1717899447::1717899447::1::::<><>::
+monster.gd::GDScript::-1::1717899554::0::1::::<>CharacterBody2D<>::
+monster.tscn::PackedScene::2068395939670214558::1717899555::0::1::::<><>::res://monster.gd
+New Project.png::CompressedTexture2D::3508889310309884759::1717899446::1717899446::1::::<><>::
+New ProjectB.png::CompressedTexture2D::4982790678584702878::1717899446::1717899446::1::::<><>::
+Node2D.gd::GDScript::-1::1717899554::0::1::::<>CharacterBody2D<>::
+node_2d.tscn::PackedScene::6368382232955002769::1717899447::0::1::::<><>::
+player.gd::GDScript::-1::1717899447::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::318774427096841659::1717899554::0::1::::<><>::res://player.gd<>uid://ckr2ie2s5j4ol::::res://bingusf1png.png<>uid://dnsn1m4o17yum::::res://bingusf2png.png<>uid://58j81lj472e5::::res://bingusf3png.png<>uid://cqyo1b25qfoig::::res://bingusf4png.png<>uid://dhivp6eignr0::::res://bingusf5png.png<>uid://cc8x3mwpvad0q::::res://New ProjectB.png<>uid://bp8y5n2aeeil8::::res://New Project.png
+rocktexture - Copy.jpg::CompressedTexture2D::7905251286581415295::1717899447::1717899447::1::::<><>::
+rocktexture.jpg::CompressedTexture2D::2946589392850587141::1717899447::1717899447::1::::<><>::
+StaminaBar.gd::GDScript::-1::1717899446::0::1::::<>ProgressBar<>::
+TileMap.gd::GDScript::-1::1717899446::0::1::::<>TileMap<>::
+::res://Bat/::1717899446
+Bat_Attack.png::CompressedTexture2D::6596319475581819918::1717899446::1717899446::1::::<><>::
+Bat_Attack_FX.png::CompressedTexture2D::6911405620449220779::1717899446::1717899446::1::::<><>::
+Bat_Death.png::CompressedTexture2D::683610812046995749::1717899446::1717899446::1::::<><>::
+Bat_Death_FX.png::CompressedTexture2D::3609323220036415670::1717899446::1717899446::1::::<><>::
+Bat_Fly.png::CompressedTexture2D::8882005157665517071::1717899446::1717899446::1::::<><>::
+Bat_Full.png::CompressedTexture2D::9109040896090174340::1717899446::1717899446::1::::<><>::
+Bat_Hit.png::CompressedTexture2D::5531237608960747026::1717899446::1717899446::1::::<><>::
+::res://Crab/::1717899446
+Crab_Ability.png::CompressedTexture2D::4074460084661173091::1717899446::1717899446::1::::<><>::
+Crab_AttackA.png::CompressedTexture2D::3750364375377336375::1717899446::1717899446::1::::<><>::
+Crab_AttackA_FX.png::CompressedTexture2D::7259075029876739331::1717899446::1717899446::1::::<><>::
+Crab_AttackB.png::CompressedTexture2D::158384194042659066::1717899446::1717899446::1::::<><>::
+Crab_AttackB_FX.png::CompressedTexture2D::1191495562821126283::1717899446::1717899446::1::::<><>::
+Crab_AttackC.png::CompressedTexture2D::2869830980062206848::1717899446::1717899446::1::::<><>::
+Crab_AttackC_FX.png::CompressedTexture2D::205614714461750152::1717899446::1717899446::1::::<><>::
+Crab_Death.png::CompressedTexture2D::777445125728398701::1717899446::1717899446::1::::<><>::
+Crab_Full.png::CompressedTexture2D::3531593590602706800::1717899446::1717899446::1::::<><>::
+Crab_Hit.png::CompressedTexture2D::4220744657845577689::1717899446::1717899446::1::::<><>::
+Crab_Idle.png::CompressedTexture2D::7855924578495713706::1717899446::1717899446::1::::<><>::
+Crab_Run.png::CompressedTexture2D::5335322096309973821::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/::1717899446
+readMe_.txt::TextFile::-1::1717899446::0::1::::<><>::
+::res://fantasy_ [version 2.0]/cave_/::1717899446
+cave_ [bridgeAnimatedTiles].png::CompressedTexture2D::329946149496288725::1717899446::1717899446::1::::<><>::
+cave_ [bridgeHorizontal].png::CompressedTexture2D::6350694172972299216::1717899446::1717899446::1::::<><>::
+cave_ [bridgeVertical].png::CompressedTexture2D::8495955429007605787::1717899446::1717899446::1::::<><>::
+cave_ [fencesAndWalls].png::CompressedTexture2D::4997142481535586681::1717899446::1717899446::1::::<><>::
+cave_ [fountain].png::CompressedTexture2D::7039052438863207783::1717899446::1717899446::1::::<><>::
+cave_ [resources].png::CompressedTexture2D::5751600198049981106::1717899446::1717899446::1::::<><>::
+cave_.png::CompressedTexture2D::9015856368117408465::1717899446::1717899446::1::::<><>::
+railway_.png::CompressedTexture2D::6605759503634636727::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/desert_/::1717899446
+desertPath_.png::CompressedTexture2D::6810469488826147538::1717899446::1717899446::1::::<><>::
+desert_ [bridgeAnimatedTiles].png::CompressedTexture2D::2873450515216789470::1717899446::1717899446::1::::<><>::
+desert_ [bridgeHorizontal].png::CompressedTexture2D::6976742128165360962::1717899446::1717899446::1::::<><>::
+desert_ [bridgeVertical].png::CompressedTexture2D::7437453764981421550::1717899446::1717899446::1::::<><>::
+desert_ [fencesAndWalls].png::CompressedTexture2D::8273665259827398854::1717899446::1717899446::1::::<><>::
+desert_ [fountain].png::CompressedTexture2D::189701550019637083::1717899446::1717899446::1::::<><>::
+desert_ [resources].png::CompressedTexture2D::7272405778687297728::1717899446::1717899446::1::::<><>::
+desert_.png::CompressedTexture2D::3293467201404831225::1717899446::1717899446::1::::<><>::
+quickSand_.png::CompressedTexture2D::4654408458641854535::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/fantasy_/::1717899446
+forestDesert_.png::CompressedTexture2D::7468208931322701019::1717899446::1717899446::1::::<><>::
+swampDesert_.png::CompressedTexture2D::680734614995048358::1717899446::1717899446::1::::<><>::
+swampForest_.png::CompressedTexture2D::3311126189163746945::1717899446::1717899446::1::::<><>::
+swampTaiga_.png::CompressedTexture2D::5927039080353593691::1717899446::1717899446::1::::<><>::
+taigaDesert_.png::CompressedTexture2D::4061165991430610241::1717899446::1717899446::1::::<><>::
+taigaForest_.png::CompressedTexture2D::6354287400458032414::1717899446::1717899446::1::::<><>::
+tundraDesert_.png::CompressedTexture2D::1004266450152918658::1717899446::1717899446::1::::<><>::
+tundraForest.png::CompressedTexture2D::7871429896081871049::1717899446::1717899446::1::::<><>::
+tundraSwampTaigaForestDesert_0.png::CompressedTexture2D::5275465824476917968::1717899446::1717899446::1::::<><>::
+tundraSwampTaigaForestDesert_1.png::CompressedTexture2D::9000831070075655563::1717899446::1717899446::1::::<><>::
+tundraSwamp_.png::CompressedTexture2D::6653747084324010981::1717899446::1717899446::1::::<><>::
+tundraTaiga_.png::CompressedTexture2D::6244787357765938887::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/forest_/::1717899446
+forestPath_.png::CompressedTexture2D::8161323147489259240::1717899446::1717899446::1::::<><>::
+forest_ [bridgeAnimatedTiles].png::CompressedTexture2D::5040743471910827510::1717899446::1717899446::1::::<><>::
+forest_ [bridgeHorizontal].png::CompressedTexture2D::4240694078729131123::1717899446::1717899446::1::::<><>::
+forest_ [bridgeVertical].png::CompressedTexture2D::3930248717480673934::1717899446::1717899446::1::::<><>::
+forest_ [fencesAndWalls].png::CompressedTexture2D::2654951770570453518::1717899446::1717899446::1::::<><>::
+forest_ [fountain].png::CompressedTexture2D::4350371608836863738::1717899446::1717899446::1::::<><>::
+forest_ [resources].png::CompressedTexture2D::2375359438183361643::1717899446::1717899446::1::::<><>::
+forest_.png::CompressedTexture2D::1050976956720217944::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/swamp_/::1717899446
+puddle_.png::CompressedTexture2D::2172758926829804277::1717899446::1717899446::1::::<><>::
+swamp_ [bridgeAnimatedTiles].png::CompressedTexture2D::8564448477141273442::1717899446::1717899446::1::::<><>::
+swamp_ [bridgeHorizontal].png::CompressedTexture2D::3693868424608888764::1717899446::1717899446::1::::<><>::
+swamp_ [bridgeVertical].png::CompressedTexture2D::3352468843629900145::1717899446::1717899446::1::::<><>::
+swamp_ [fencesAndWalls].png::CompressedTexture2D::6841641621888700158::1717899446::1717899446::1::::<><>::
+swamp_ [fountain].png::CompressedTexture2D::4389637248018383819::1717899446::1717899446::1::::<><>::
+swamp_ [resources].png::CompressedTexture2D::3505203728983653527::1717899446::1717899446::1::::<><>::
+swamp_.png::CompressedTexture2D::1480583272108599236::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/taiga_/::1717899446
+taigaPath_.png::CompressedTexture2D::1254061412221468402::1717899446::1717899446::1::::<><>::
+taiga_ [bridgeAnimatedTiles].png::CompressedTexture2D::3148791573826721985::1717899446::1717899446::1::::<><>::
+taiga_ [bridgeHorizontal].png::CompressedTexture2D::1990517761863260278::1717899446::1717899446::1::::<><>::
+taiga_ [bridgeVertical].png::CompressedTexture2D::4958510539232319711::1717899446::1717899446::1::::<><>::
+taiga_ [fencesAndWalls].png::CompressedTexture2D::8754956287504429358::1717899446::1717899446::1::::<><>::
+taiga_ [fountain].png::CompressedTexture2D::6292719498406401140::1717899446::1717899446::1::::<><>::
+taiga_ [resources].png::CompressedTexture2D::101635174061941773::1717899446::1717899446::1::::<><>::
+taiga_.png::CompressedTexture2D::3186787359476483821::1717899446::1717899446::1::::<><>::
+::res://fantasy_ [version 2.0]/tundra_/::1717899446
+ice_.png::CompressedTexture2D::8761267420554203608::1717899446::1717899446::1::::<><>::
+igloo_.png::CompressedTexture2D::7916238226808695862::1717899446::1717899446::1::::<><>::
+tundraPath_.png::CompressedTexture2D::6637028953931471724::1717899446::1717899446::1::::<><>::
+tundra_ [bridgeAnimatedTiles].png::CompressedTexture2D::8520928561740155871::1717899446::1717899446::1::::<><>::
+tundra_ [bridgeHorizontal].png::CompressedTexture2D::7142260225668018287::1717899446::1717899446::1::::<><>::
+tundra_ [bridgeVertical].png::CompressedTexture2D::115249316257165426::1717899446::1717899446::1::::<><>::
+tundra_ [fencesAndWalls].png::CompressedTexture2D::2133517526325478843::1717899446::1717899446::1::::<><>::
+tundra_ [fountain].png::CompressedTexture2D::1783633083249197225::1717899446::1717899446::1::::<><>::
+tundra_ [ice].png::CompressedTexture2D::6167488098704735349::1717899446::1717899446::1::::<><>::
+tundra_ [resources].png::CompressedTexture2D::6230239717052637278::1717899446::1717899446::1::::<><>::
+tundra_.png::CompressedTexture2D::2210660701469892989::1717899446::1717899446::1::::<><>::
+::res://Golem/::1717899446
+::res://Golem/Armored/::1717899446
+Golem_Armor_Ability.png::CompressedTexture2D::7553988992816665331::1717899446::1717899446::1::::<><>::
+Golem_Armor_ArmorBreak.png::CompressedTexture2D::194665458525298410::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackA.png::CompressedTexture2D::7895806882448923924::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackA_FX.png::CompressedTexture2D::8919297388072629667::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackB.png::CompressedTexture2D::6659943233019070848::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackB_FX.png::CompressedTexture2D::5454071719794826328::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackC.png::CompressedTexture2D::7455262437611978447::1717899446::1717899446::1::::<><>::
+Golem_Armor_AttackC_FX.png::CompressedTexture2D::3680735446066670442::1717899446::1717899446::1::::<><>::
+Golem_Armor_Full.png::CompressedTexture2D::2735453266854780086::1717899446::1717899446::1::::<><>::
+Golem_Armor_Hit.png::CompressedTexture2D::4500076073975781025::1717899446::1717899446::1::::<><>::
+Golem_Armor_Idle.png::CompressedTexture2D::8400164391352672859::1717899446::1717899446::1::::<><>::
+Golem_Armor_Run.png::CompressedTexture2D::5605258527719186832::1717899446::1717899446::1::::<><>::
+::res://Golem/No Armor/::1717899446
+Golem_AttackA.png::CompressedTexture2D::9130474984948924304::1717899446::1717899446::1::::<><>::
+Golem_AttackA_FX.png::CompressedTexture2D::6885564230508156854::1717899446::1717899446::1::::<><>::
+Golem_AttackB.png::CompressedTexture2D::5818280439018122778::1717899446::1717899446::1::::<><>::
+Golem_AttackB_FX.png::CompressedTexture2D::5470751099330316038::1717899446::1717899446::1::::<><>::
+Golem_AttackC.png::CompressedTexture2D::2071304560167781827::1717899446::1717899446::1::::<><>::
+Golem_AttackC_FX.png::CompressedTexture2D::2449854457540111991::1717899446::1717899446::1::::<><>::
+Golem_DeathA.png::CompressedTexture2D::843043877264793770::1717899446::1717899446::1::::<><>::
+Golem_DeathB.png::CompressedTexture2D::153421290848221693::1717899446::1717899446::1::::<><>::
+Golem_Death_FX.png::CompressedTexture2D::6814936651954899098::1717899446::1717899446::1::::<><>::
+Golem_Full.png::CompressedTexture2D::3552782335388501053::1717899446::1717899446::1::::<><>::
+Golem_HitA.png::CompressedTexture2D::1061436843455641793::1717899446::1717899446::1::::<><>::
+Golem_HitB.png::CompressedTexture2D::9154823830694202946::1717899446::1717899446::1::::<><>::
+Golem_IdleA.png::CompressedTexture2D::5531973943117795394::1717899446::1717899446::1::::<><>::
+Golem_IdleB.png::CompressedTexture2D::6536782716308432576::1717899446::1717899446::1::::<><>::
+Golem_Reset.png::CompressedTexture2D::1068774685726138314::1717899446::1717899446::1::::<><>::
+Golem_Run.png::CompressedTexture2D::8591674453678437509::1717899446::1717899446::1::::<><>::
+Golem_Upgrade.png::CompressedTexture2D::2186607010451158929::1717899446::1717899446::1::::<><>::
+::res://Pebble/::1717899446
+Pebble_Death.png::CompressedTexture2D::6069246802431134760::1717899446::1717899446::1::::<><>::
+Pebble_Full.png::CompressedTexture2D::3696244832107516986::1717899446::1717899446::1::::<><>::
+Pebble_Hit.png::CompressedTexture2D::8150463122669624682::1717899446::1717899446::1::::<><>::
+Pebble_Idle.png::CompressedTexture2D::153699165675142532::1717899446::1717899446::1::::<><>::
+Pebble_Run.png::CompressedTexture2D::8047140176798451684::1717899446::1717899446::1::::<><>::
+::res://Rat/::1717899446
+Rat_Ability.png::CompressedTexture2D::6020467203607814967::1717899446::1717899446::1::::<><>::
+Rat_Attack.png::CompressedTexture2D::5983039912777661787::1717899446::1717899446::1::::<><>::
+Rat_Attack_FX.png::CompressedTexture2D::8147375012415485869::1717899446::1717899446::1::::<><>::
+Rat_Death.png::CompressedTexture2D::3230345824268040748::1717899446::1717899446::1::::<><>::
+Rat_Death_FX.png::CompressedTexture2D::1529837671146497473::1717899446::1717899446::1::::<><>::
+Rat_Full.png::CompressedTexture2D::3853936494551222881::1717899446::1717899446::1::::<><>::
+Rat_Hit.png::CompressedTexture2D::7784311081950822259::1717899446::1717899446::1::::<><>::
+Rat_Idle.png::CompressedTexture2D::8394680138937560212::1717899446::1717899446::1::::<><>::
+Rat_Run.png::CompressedTexture2D::2804538179233559813::1717899446::1717899446::1::::<><>::
+::res://Skull/::1717899446
+Bones_SingleSkull_Death.png::CompressedTexture2D::8872051907142995685::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Death_FX.png::CompressedTexture2D::9213308222927440581::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Fly.png::CompressedTexture2D::7265484911470386093::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Full.png::CompressedTexture2D::6995297112767940398::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Full_FX.png::CompressedTexture2D::5757197269628330860::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Hit.png::CompressedTexture2D::6418082039784692889::1717899446::1717899446::1::::<><>::
+Bones_SingleSkull_Idle.png::CompressedTexture2D::60073861130872037::1717899446::1717899446::1::::<><>::
+::res://Slime/::1717899446
+Slime_Spiked_Ability.png::CompressedTexture2D::976018320379111027::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Ability_FX.png::CompressedTexture2D::2538074902064694018::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Death.png::CompressedTexture2D::5262618571164671194::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Full.png::CompressedTexture2D::4909265803569509278::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Hit.png::CompressedTexture2D::8944416044193128560::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Idle.png::CompressedTexture2D::5026179272444389430::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Jump.png::CompressedTexture2D::5505917968089416435::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Jump_FX.png::CompressedTexture2D::5376647183116415167::1717899446::1717899446::1::::<><>::
+Slime_Spiked_Run.png::CompressedTexture2D::5784508431761351510::1717899446::1717899446::1::::<><>::

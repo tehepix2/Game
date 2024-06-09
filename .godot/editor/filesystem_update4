@@ -2,6 +2,5 @@ res://player.tscn
 res://main.tscn
 res://monster.tscn
 res://Bat.tscn
-res://monster.gd
 res://Node2D.gd
-res://player.gd
+res://monster.gd

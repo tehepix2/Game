@@ -1573,3 +1573,4 @@ layer_5/tile_data = PackedInt32Array(-146081343, 65539, 1, -146015807, 65539, 2,
 script = ExtResource("8_i7cxa")
 
 [node name="bat" parent="." instance=ExtResource("9_npmq2")]
+position = Vector2(-2, 78)
