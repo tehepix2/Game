@@ -1,6 +1,7 @@
 res://player.tscn
 res://main.tscn
-res://monster.tscn
 res://Bat.tscn
 res://Node2D.gd
-res://monster.gd
+res://enemy.gd
+res://enemy.tscn
+res://player.gd

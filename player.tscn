@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://esofyqsggnqx"]
+[gd_scene load_steps=14 format=3 uid="uid://esofyqsggnqx"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_w1vvt"]
 [ext_resource type="Texture2D" uid="uid://ckr2ie2s5j4ol" path="res://bingusf1png.png" id="3_2pjm5"]
@@ -8,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://dhivp6eignr0" path="res://bingusf5png.png" id="7_a7duh"]
 [ext_resource type="Texture2D" uid="uid://cc8x3mwpvad0q" path="res://New ProjectB.png" id="7_xwp7e"]
 [ext_resource type="Texture2D" uid="uid://bp8y5n2aeeil8" path="res://New Project.png" id="8_f3s2h"]
+[ext_resource type="Texture2D" uid="uid://don2jvy8m63hk" path="res://Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/greenbar (3).png" id="9_6d3ps"]
+[ext_resource type="Texture2D" uid="uid://dfwkywtrnj45x" path="res://Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/greenbar (1).png" id="10_s6sxe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m0j3k"]
 size = Vector2(15, 9)
@@ -35,26 +37,44 @@ animations = [{
 "speed": 20.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_yu4iw"]
+radius = 16.0
+
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 3
 script = ExtResource("1_w1vvt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-281.5, 53.5)
+position = Vector2(0, 6)
 shape = SubResource("RectangleShape2D_m0j3k")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-281.695, 47.7656)
 scale = Vector2(0.0479458, 0.0446707)
 sprite_frames = SubResource("SpriteFrames_b4b6s")
 animation = &"run"
 
 [node name="TextureProgressBar" type="TextureProgressBar" parent="."]
-offset_left = -268.0
-offset_top = 40.0
-offset_right = 632.0
-offset_bottom = 1020.0
+offset_left = 10.0
+offset_top = -9.0
+offset_right = 958.0
+offset_bottom = 1044.0
 scale = Vector2(0.0232048, 0.0208833)
 fill_mode = 4
 texture_under = ExtResource("7_xwp7e")
 texture_progress = ExtResource("8_f3s2h")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_yu4iw")
+disabled = true
+
+[node name="TextureProgressBar2" type="TextureProgressBar" parent="."]
+offset_left = 35.0
+offset_top = -109.0
+offset_right = 180.0
+offset_bottom = 36.0
+texture_under = ExtResource("9_6d3ps")
+texture_progress = ExtResource("10_s6sxe")

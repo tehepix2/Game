@@ -1,19 +1,20 @@
-extends CharacterBody2D
+extends Enemy
 @onready var _animated_sprite = $AnimatedSprite2D
-
+@onready var _progress_bar = $TextureProgressBar
 var speed = 20
 var player_chase = false
 var player = null
 
 func _physics_process(delta):
-	_animated_sprite.play("idle")
+	_progress_bar.value = hp
+	
+	if (hp > 0):
+		_animated_sprite.play("idle")
 	if player_chase:
-		velocity = (player.get_global_position() - position).normalized() * speed * delta
+		velocity = global_position.direction_to(player.global_position) * speed
 	else:
 		velocity = Vector2(0,0)
-	move_and_collide(velocity)
-
-
+	move_and_slide()
 
 func _on_detection_area_body_entered(body):
 	player = body
@@ -22,3 +23,8 @@ func _on_detection_area_body_entered(body):
 func _on_detection_area_body_exited(_body):
 	player = null
 	player_chase = false
+	
+func _die(delta):
+	if (hp <= 0):
+		_animated_sprite.pause("idle")
+		_animated_sprite.play("death")

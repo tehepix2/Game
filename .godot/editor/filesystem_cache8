@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717958076
+::res://::1717982796
 .gitignore.txt::TextFile::-1::1717899446::0::1::::<><>::
 AnimatedSprite2D.gd::GDScript::-1::1717899446::0::1::::<>RefCounted<>::
-Bat.tscn::PackedScene::8331617255060628737::1717899555::0::1::::<><>::res://Node2D.gd<>uid://dysrleladda1t::::res://Bat/Bat_Fly.png
+Bat.tscn::PackedScene::8331617255060628737::1717982679::0::1::::<><>::res://Node2D.gd<>uid://dysrleladda1t::::res://Bat/Bat_Fly.png<>uid://j0e78swaoumn::::res://Bat/Bat_Death.png
 bingus.tres::ImageTexture::2098908828610522078::1717899446::0::1::::<><>::
 bingusf1png.png::CompressedTexture2D::5511478123402911107::1717899446::1717899446::1::::<><>::
 bingusf2png.png::CompressedTexture2D::8109712245245948084::1717899446::1717899446::1::::<><>::
@@ -12,26 +12,26 @@ bingusf5png.png::CompressedTexture2D::225541248738523007::1717899446::1717899446
 binguspng(1).png::CompressedTexture2D::1243221805537214316::1717899446::1717899446::1::::<><>::
 binguspng.png::CompressedTexture2D::740885177416583162::1717899446::1717899446::1::::<><>::
 bingussprite.jpg::CompressedTexture2D::5504918067312598249::1717899446::1717899446::1::::<><>::
+enemy.gd::GDScript::-1::1717981631::0::1::::Enemy<>CharacterBody2D<>::
 export_presets.cfg::TextFile::-1::1717899446::0::1::::<><>::
 extra_momoSleep_shadow.png::CompressedTexture2D::9138217934441429030::1717899446::1717899446::1::::<><>::
 grasstexture.jpg::CompressedTexture2D::6876300679492908429::1717899447::1717899447::1::::<><>::
 HealthBar.gd::GDScript::-1::1717899446::0::1::::<>ProgressBar<>::
 icon.svg::CompressedTexture2D::1333222448118516707::1717899447::1717899447::1::::<><>::
-main.tscn::PackedScene::800187833463202982::1717899555::0::1::::<><>::uid://esofyqsggnqx::::res://player.tscn<>uid://b1ohu2mixokg6::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeHorizontal].png<>uid://cd21kqwddihak::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeAnimatedTiles].png<>uid://bv83vfhnk10cw::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeVertical].png<>uid://bd3cwx67nvq2a::::res://fantasy_ [version 2.0]/forest_/forest_ [fencesAndWalls].png<>res://TileMap.gd<>uid://dqx5rv4468un6::::res://Bat.tscn<>uid://83v28jmjbewx::::res://fantasy_ [version 2.0]/forest_/forest_ [resources].png<>uid://o8do4c88pc6k::::res://fantasy_ [version 2.0]/forest_/forest_.png
+main.tscn::PackedScene::800187833463202982::1717982679::0::1::::<><>::uid://esofyqsggnqx::::res://player.tscn<>uid://b1ohu2mixokg6::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeHorizontal].png<>uid://cd21kqwddihak::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeAnimatedTiles].png<>uid://bv83vfhnk10cw::::res://fantasy_ [version 2.0]/forest_/forest_ [bridgeVertical].png<>uid://bd3cwx67nvq2a::::res://fantasy_ [version 2.0]/forest_/forest_ [fencesAndWalls].png<>res://TileMap.gd<>uid://dqx5rv4468un6::::res://Bat.tscn<>uid://83v28jmjbewx::::res://fantasy_ [version 2.0]/forest_/forest_ [resources].png<>uid://o8do4c88pc6k::::res://fantasy_ [version 2.0]/forest_/forest_.png
 momo_idle_shadow.png::CompressedTexture2D::4526806052367140059::1717899447::1717899447::1::::<><>::
-monster.gd::GDScript::-1::1717899554::0::1::::<>CharacterBody2D<>::
-monster.tscn::PackedScene::2068395939670214558::1717899555::0::1::::<><>::res://monster.gd
 New Project.png::CompressedTexture2D::3508889310309884759::1717899446::1717899446::1::::<><>::
 New ProjectB.png::CompressedTexture2D::4982790678584702878::1717899446::1717899446::1::::<><>::
-Node2D.gd::GDScript::-1::1717899554::0::1::::<>CharacterBody2D<>::
+Node2D.gd::GDScript::-1::1717982679::0::1::::<>Enemy<>::
 node_2d.tscn::PackedScene::6368382232955002769::1717899447::0::1::::<><>::
-player.gd::GDScript::-1::1717899447::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::318774427096841659::1717899554::0::1::::<><>::res://player.gd<>uid://ckr2ie2s5j4ol::::res://bingusf1png.png<>uid://dnsn1m4o17yum::::res://bingusf2png.png<>uid://58j81lj472e5::::res://bingusf3png.png<>uid://cqyo1b25qfoig::::res://bingusf4png.png<>uid://dhivp6eignr0::::res://bingusf5png.png<>uid://cc8x3mwpvad0q::::res://New ProjectB.png<>uid://bp8y5n2aeeil8::::res://New Project.png
+player.gd::GDScript::-1::1717981883::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::318774427096841659::1717982679::0::1::::<><>::res://player.gd<>uid://ckr2ie2s5j4ol::::res://bingusf1png.png<>uid://dnsn1m4o17yum::::res://bingusf2png.png<>uid://58j81lj472e5::::res://bingusf3png.png<>uid://cqyo1b25qfoig::::res://bingusf4png.png<>uid://dhivp6eignr0::::res://bingusf5png.png<>uid://cc8x3mwpvad0q::::res://New ProjectB.png<>uid://bp8y5n2aeeil8::::res://New Project.png
+enemy.tscn::PackedScene::5337037930257711494::1717982679::0::1::::<><>::res://enemy.gd
 rocktexture - Copy.jpg::CompressedTexture2D::7905251286581415295::1717899447::1717899447::1::::<><>::
 rocktexture.jpg::CompressedTexture2D::2946589392850587141::1717899447::1717899447::1::::<><>::
 StaminaBar.gd::GDScript::-1::1717899446::0::1::::<>ProgressBar<>::
 TileMap.gd::GDScript::-1::1717899446::0::1::::<>TileMap<>::
-::res://Bat/::1717899446
+::res://Bat/::1717979808
 Bat_Attack.png::CompressedTexture2D::6596319475581819918::1717899446::1717899446::1::::<><>::
 Bat_Attack_FX.png::CompressedTexture2D::6911405620449220779::1717899446::1717899446::1::::<><>::
 Bat_Death.png::CompressedTexture2D::683610812046995749::1717899446::1717899446::1::::<><>::
@@ -157,6 +157,23 @@ Golem_IdleB.png::CompressedTexture2D::6536782716308432576::1717899446::171789944
 Golem_Reset.png::CompressedTexture2D::1068774685726138314::1717899446::1717899446::1::::<><>::
 Golem_Run.png::CompressedTexture2D::8591674453678437509::1717899446::1717899446::1::::<><>::
 Golem_Upgrade.png::CompressedTexture2D::2186607010451158929::1717899446::1717899446::1::::<><>::
+::res://Health Bar Asset Pack 2 by Adwit Rahman/::1717982796
+::res://Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/::1717982796
+::res://Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/Health Bar Asset Pack 2 by Adwit Rahman/::1717982796
+beer (1).png::CompressedTexture2D::5334467019364078079::1717982796::1717982802::1::::<><>::
+beer (2).png::CompressedTexture2D::7294118976189694071::1717982796::1717982802::1::::<><>::
+beer (3).png::CompressedTexture2D::6992831129709461430::1717982796::1717982802::1::::<><>::
+Darkupdate.png::CompressedTexture2D::4810311427106312688::1717982796::1717982802::1::::<><>::
+greenbar (1).png::CompressedTexture2D::7556273794495312255::1717982796::1717982802::1::::<><>::
+greenbar (2).png::CompressedTexture2D::1753260367142148034::1717982796::1717982802::1::::<><>::
+greenbar (3).png::CompressedTexture2D::8170399345346687296::1717982796::1717982802::1::::<><>::
+HealthBar DARK.png::CompressedTexture2D::3900379038784889871::1717982796::1717982802::1::::<><>::
+redblue (1).png::CompressedTexture2D::5419387450794437439::1717982796::1717982802::1::::<><>::
+redblue (2).png::CompressedTexture2D::1706450183690602740::1717982796::1717982802::1::::<><>::
+redblue (3).png::CompressedTexture2D::8450789451795826393::1717982796::1717982802::1::::<><>::
+rpg (1).png::CompressedTexture2D::1093619304255554205::1717982796::1717982802::1::::<><>::
+rpg (2).png::CompressedTexture2D::8357575165147638465::1717982796::1717982802::1::::<><>::
+rpg (3).png::CompressedTexture2D::8682253671239172384::1717982796::1717982802::1::::<><>::
 ::res://Pebble/::1717899446
 Pebble_Death.png::CompressedTexture2D::6069246802431134760::1717899446::1717899446::1::::<><>::
 Pebble_Full.png::CompressedTexture2D::3696244832107516986::1717899446::1717899446::1::::<><>::
